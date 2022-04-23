@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+body{
+    background-color: antiquewhite;
+    
+}
+.header{
+    background-image: url(/src/images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+    padding: 10rem;
+}
+img{
+    width:100%;
+    height: auto;
+}
+
+.section1, .section2{
+    text-align: left;
+    margin: 5rem 10rem;
+}
+h1{
+    letter-spacing: .7rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 900;
+}

@@ -2,17 +2,20 @@ import './App.css';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 
 //importamos los comp creados
-import About from './components/about';
-import Product from './components/product';
-import Contact from './components/contact';
-import Home from './components/home';
+//we import the create component
+import About from './components/About/about';
+import Product from './components/Product/product';
+import Contact from './components/Contact/contact';
+import Home from './components/Home/home';
 import NavBarExample from './layouts/navbar';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
     <div className="App">
 
 <BrowserRouter>
+
 <Routes>
   <Route path='/' element={ <NavBarExample /> }>
     <Route index element={ <Home /> } />
@@ -22,6 +25,7 @@ function App() {
     <Route path='*' element={ <Navigate replace to="/"/> }/>
   </Route>
 </Routes> 
+<Footer />
 </BrowserRouter>
 
     </div>
