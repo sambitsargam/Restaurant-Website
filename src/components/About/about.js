@@ -20,6 +20,7 @@ const About = () => {
         <div className="section2">
 
             <div>
+                {/* i can't seem to import images */}
                 {/* <img src={Chef} alt="chef logo" />; */}
                 <p>
                 Chef Michael Tusk was named “Best Chef: Pacific” by the James Beard Foundation in 2011. Quince was awarded its third Michelin star in 2017 and holds four stars from the San Francisco Chronicle. Quince is a proud member of Relais & Châteaux, an association of the world's most celebrated restaurants and luxury hotels. In 2020, Quince was one of the first recipients in the country to be awarded a Green Star from Michelin for its work towards sustainability and biodiversity.
