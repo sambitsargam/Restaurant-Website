@@ -1,0 +1,44 @@
+.contactform{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    padding: 2rem;
+}
+h1{
+    text-align: center;
+    padding: 1rem;
+}
+input{
+    padding: .75rem;
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid #b2beb5
+}
+.inputname{
+    margin: 5rem 0 2rem 0;
+}
+.lname{
+    margin-left: 2rem;
+}
+.input-email{
+    width: 100%;
+    border: 1px solid #b2beb5;
+}
+.submit{
+    width: 100%;
+  background-color: #724caf;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+textarea{
+    border-radius: 4px;
+    height:200px;
+    width: 100%;
+    margin: 2rem 0;
+    border: 1px solid #b2beb5
+}
