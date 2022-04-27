@@ -8,17 +8,18 @@ import Product from './components/Product/product';
 import Contact from './components/Contact/contact';
 import Home from './components/Home/home';
 import NavBarExample from './layouts/navbar';
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 // import Footer from './components/footer/footer';
 
 function App() {
   return (
     <div className="App">
 
-<BrowserRouter basename={process.env.PUBLIC_URL}>
+<BrowserRouter>
 
 <Routes>
   <Route path='/' element={ <NavBarExample /> }>
-    <Route exact element={ <Home /> } />
+    <Route index element={ <Home /> } />
     <Route path='about' element={ <About /> } />
     <Route path='product' element={ <Product /> } />
     <Route path='contact' element={ <Contact /> } />

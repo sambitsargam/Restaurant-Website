@@ -1,4 +1,4 @@
-import Plate from '../../images/hero.jpg';
+// import Plate from '../../images/hero.jpg';
 import Friedrice from '../../images/friedrice.jpg';
 import burger from '../../images/burger.jpg';
 import spaghetti from '../../images/spaghetti.jpg';
