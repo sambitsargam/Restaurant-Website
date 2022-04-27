@@ -1,8 +1,4 @@
 
-.App {
-  /* this was affecting the whole page layout */
-  /* text-align: center; */
-}
 .font-link{
   font-family: 'Poppins', sans-serif;
 }
@@ -42,14 +38,7 @@
   }
 }
 
-section {
-  /* this was affecting the whole page layout */
-  /* color: #fff; */
-  /* text-shadow: 3px 3px rgba(50,50,70,0.5); */ 
-  /* background-color: #ffb6b9b0; */
-
-  height: 100vh;  
-}
 .navBg {
-  background-color: #7952b3;
+  background-color: #000;
+  padding: 1rem;
 }
