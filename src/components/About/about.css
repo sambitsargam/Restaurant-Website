@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 
-body{
-    background-color: antiquewhite;
-    
-}
+
 .header{
     background-image: url(/src/images/hero.jpg);
     background-repeat: no-repeat;
@@ -13,19 +10,48 @@ body{
 }
 img{
     width:100%;
-    height: auto;
+    object-fit: cover;
+    /* height: auto; */
 }
 
-.section1, .section2{
+.section1{
     text-align: left;
     margin: 5rem 10rem;
+    font-size: 1.5rem;
 }
-h1{
+.header-text{
     letter-spacing: .7rem;
     text-transform: uppercase;
     color: #fff;
+    background-color: #b2beb5;
+    text-align: center;
+    transition: 2s;
+    padding: 1rem;
+    margin: 2rem;
     font-weight: 900;
 }
-img{
+.times{
+    display: flex;
+}
+.header-text:hover{
+    padding: 2rem;
+}
+.img{
     width: 10%;
 }
+@media screen and (max-width: 600px){
+    .times{
+        display: block;
+    }
+    .section1{
+        margin: 2rem;
+        font-size: 1rem;
+    }
+    .header{
+        padding: 2rem;
+    }
+    .hours{
+        font-size: 1em;
+        padding: 2rem;
+    }
+    }

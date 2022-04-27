@@ -1,0 +1,73 @@
+.name{
+    padding: 5rem 3rem;
+    font: 5em poppins;
+    font-style:italic;
+    font-weight: 400;
+    transition: 3s;
+}
+.header-img{
+    width: 1000px;
+    height: 50%;
+    display: flex;
+}
+.about{
+    
+    text-align: center;
+    display: flex;
+}
+
+.time{
+    display: flex;
+}
+.made{
+    padding: 5rem 2rem;
+    font: sans-serif;
+}
+.made p{
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+.hours{
+    width: 100%;
+    text-align: center;
+    padding-top: 5rem;
+    font: 2em sans-serif;
+}
+.about-btn{
+    border:none;
+    padding: .7rem 1rem;
+    text-transform: uppercase;
+    background-color: #7952b3;
+    color: #fff;
+    margin-top: 2rem;
+}
+.footer{
+    background-color: #000;
+    padding: 2rem;
+    text-align: center;
+    color: #fff;
+    
+}
+.fa{
+    margin-left: 3rem;
+    cursor: pointer;
+    
+}
+
+@media screen and (max-width: 600px){
+    .time{
+        display: block;
+    }
+    .about{
+        display: block;
+    }
+    .header-img{
+        width:100%;
+        display: block;
+    }
+    .name{
+        font-size: 2rem;
+        padding: 1rem 2rem;
+        text-align: center;
+    }
+    }

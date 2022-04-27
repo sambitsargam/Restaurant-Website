@@ -5,9 +5,10 @@
     margin: auto;
     padding: 2rem;
 }
-h1{
+.head{
     text-align: center;
     padding: 1rem;
+    
 }
 input{
     padding: .75rem;
@@ -42,3 +43,27 @@ textarea{
     margin: 2rem 0;
     border: 1px solid #b2beb5
 }
+
+.footer{
+    background-color: #000;
+    padding: 3rem;
+    text-align: center;
+    color: #fff;
+    
+}
+.fa{
+    margin-left: 3rem;
+    cursor: pointer;
+    
+}
+
+@media screen and (max-width: 600px){
+    .lname{
+        margin-top:1rem;
+        margin-left: 0;
+        width: 100%;
+    }
+    .fname{
+        width: 100%;
+    }
+    }

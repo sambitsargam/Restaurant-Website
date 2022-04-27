@@ -8,7 +8,7 @@ import Product from './components/Product/product';
 import Contact from './components/Contact/contact';
 import Home from './components/Home/home';
 import NavBarExample from './layouts/navbar';
-import Footer from './components/footer/footer';
+// import Footer from './components/footer/footer';
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
     <Route path='*' element={ <Navigate replace to="/"/> }/>
   </Route>
 </Routes> 
-<Footer />
+{/* <Footer /> */}
 </BrowserRouter>
 
     </div>
