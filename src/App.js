@@ -14,11 +14,11 @@ function App() {
   return (
     <div className="App">
 
-<BrowserRouter>
+<BrowserRouter basename={window.location.pathname ||''}>
 
 <Routes>
   <Route path='/' element={ <NavBarExample /> }>
-    <Route index element={ <Home /> } />
+    <Route exact element={ <Home /> } />
     <Route path='about' element={ <About /> } />
     <Route path='product' element={ <Product /> } />
     <Route path='contact' element={ <Contact /> } />
