@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
 
-<BrowserRouter basename={window.location.pathname || ''}>
+<BrowserRouter basename={process.env.PUBLIC_URL}>
 
 <Routes>
   <Route path='/' element={ <NavBarExample /> }>
