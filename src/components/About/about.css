@@ -5,13 +5,11 @@
     background-image: url(/src/images/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 100vh; */
     padding: 10rem;
 }
 img{
     width:100%;
     object-fit: cover;
-    /* height: auto; */
 }
 
 .section1{

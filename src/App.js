@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import { HashRouter, Navigate, Route, Routes } from 'react-router-dom';
 
 //importamos los comp creados
 //we import the create component
@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
 
-<BrowserRouter>
+<HashRouter>
 
 <Routes>
   <Route path='/' element={ <NavBarExample /> }>
@@ -27,7 +27,7 @@ function App() {
   </Route>
 </Routes> 
 
-</BrowserRouter>
+</HashRouter>
 
     </div>
   );
