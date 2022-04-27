@@ -1,4 +1,4 @@
-// import Plate from '../../images/hero.jpg';
+
 import Friedrice from '../../images/friedrice.jpg';
 import burger from '../../images/burger.jpg';
 import spaghetti from '../../images/spaghetti.jpg';
@@ -9,12 +9,6 @@ import './product.css';
 
 const Product = () => {
 
-    // const food =[
-    //     {id:1, foodname: 'Plate', image:Plate, Price: '$5'},
-    //     {id:2, foodname: 'Plate', image:Plate, Price: '$5'},
-    //     {id:3, foodname: 'Plate', image:Plate, Price: '$5'},
-    //     {id:4, foodname: 'Plate', image:Plate, Price: '$5'}
-    // ]
     return(
         <div>
             <h1 className='header-text'>Products</h1>
@@ -91,21 +85,7 @@ For the convenience of our ever busy customers, we offer an Office/Home delivery
                 We have imbibed a service culture that offers every customer the chance to conveniently site and order their meals from fresh and hygienically displayed array of products. These products are served either as ``Take aways`` or as ``Eat Ins`` in a serene, clean and fantastically ambient Environment by well-trained friendly and courteous service personnel. A visit to any of our eateries, the conveniences, a taste of our products and a touch of our friendly service will give you a feel of international standard. For our ever busy customers, we offer an Office/Home delivery service with a quick response time.</p>
             </div>
             </section>
-                {/* <div className='card'>
-                {  
-                    food && food.map((food) => 
-                        <div className='cardbox'>
-                            <div className='cardimg'>
-                            <img src={food.image} alt="" />
-                            </div>
-                            <p>{food.foodname}</p>
-                            <p>{food.Price}</p>
-                            <button>Order Now</button>
-
-                        </div>
-                     )
-                }
-                </div> */}
+           
         <footer className='footer'>
         <p> <span>&#169;</span> Copyright 2022 @Roots restaurant and Cafe | All Rights Reserved | Privacy Policy | Powered by SideHustle Capstone Group 42 </p>
         <FaFacebookF /> <FaInstagramSquare className='fa'/> <FaTwitter className='fa'/>

@@ -1,4 +1,4 @@
-// import About from './components/About/about';
+
 import hero from '../../images/restaurant2.jpg';
 import Cuisine from '../../images/rest.jpg';
 import Chicken from '../../images/chickenchips.jpg';

@@ -1,7 +1,6 @@
 import { Navbar, Nav, Container } from "react-bootstrap"
 import { Outlet, Link } from "react-router-dom"
 import Chef from '../images/chef.png';
-// import './bootstrap/dist/css/bootstrap.min.css';
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import './navbar.css'
 

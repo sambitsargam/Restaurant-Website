@@ -9,7 +9,7 @@ import Contact from './components/Contact/contact';
 import Home from './components/Home/home';
 import NavBarExample from './layouts/navbar';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-// import Footer from './components/footer/footer';
+
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
     <Route path='*' element={ <Navigate replace to="/"/> }/>
   </Route>
 </Routes> 
-{/* <Footer /> */}
+
 </BrowserRouter>
 
     </div>
