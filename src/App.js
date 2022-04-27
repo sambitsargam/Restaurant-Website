@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter, Navigate, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 
 //importamos los comp creados
 //we import the create component
@@ -10,12 +10,13 @@ import Home from './components/Home/home';
 import NavBarExample from './layouts/navbar';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
+// const basename = document.querySelector('base')?.getAttribute('href') ?? '/'
 
 function App() {
   return (
     <div>
-
-<HashRouter>
+{/* basename={basename}  */}
+<BrowserRouter>
 
 <Routes>
   <Route path='/' element={ <NavBarExample /> }>
@@ -27,7 +28,7 @@ function App() {
   </Route>
 </Routes> 
 
-</HashRouter>
+</BrowserRouter>
 
     </div>
   );
