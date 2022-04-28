@@ -10,12 +10,11 @@ import Home from './components/Home/home';
 import NavBarExample from './layouts/navbar';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
-// const basename = document.querySelector('base')?.getAttribute('href') ?? '/'
 
 function App() {
   return (
     <div>
-{/* basename={basename}  */}
+
 <BrowserRouter>
 
 <Routes>
